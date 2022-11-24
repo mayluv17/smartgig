@@ -1,0 +1,65 @@
+@charset "utf-8";
+/*login signup*/
+.login-wrap { 
+width: 350px;
+margin: auto;
+margin-bottom: 230px;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
+.login-wrap form input { 
+*width: 80%;
+margin: auto;
+
+   }
+.panel-default>.panel-heading{ 
+background-color: transparent;
+*border-bottom: none;}
+   .panel-footer{
+	   text-align: center;
+	   font-size: 12px;
+	   }
+.login-wrap .btn-default {
+	 margin-top: 12px;
+	 }
+#agree { font-size: 12px;
+padding: 10px 0px;}	   
+.form-div{
+	height: 8px;
+	text-align: center;
+	overflow: visible;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #DDD;
+	 } 	   
+.form-div span{
+background-color: #FFF;
+font-size: 14px;
+line-height: 16px;
+text-transform: lowercase;
+padding: 0px 10px;
+vertical-align: baseline;
+}
+.social-login div{ 
+width: 42px;
+height: 42px;
+border-radius: 50%;
+margin: auto;
+margin-bottom: 12px;
+} 
+.log-social-wrap{
+width: 80%;
+height: 45px;
+margin: auto;
+}
+
+.social-login .icn-fb {
+	background-color: #617AC3;
+	}
+.social-login .icn-fb img{ margin-top: 5px;}	
+.social-login .icn-gg {
+	background-color: #DD4B39;
+	}
+	.social-login .icn-gg img{ margin-top: 5px;}	
+.social-login .icn-in {
+	background-color: #1B86BC;
+	}	/* CSS Document */
+

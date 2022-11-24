@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+.conversation-wrap{
+	padding-left: 0px;
+	
+	}
+	.conversation-wrap .panel-default{
+		border-radius: 0px 4px 4px 0px;
+		border-left: none;}
+.user-panel{ padding-right: 0px;
+min-width: 320px;
+max-height: 650px;
+}	
+.user-panel .panel-default{
+	border-radius: 4px 0px 0px 4px;}
+.pc-msg-container{
+	max-height: 650px;
+	*border-bottom: 1px solid #FF0004;
+	*overflow: scroll;
+	margin-top: 120px;}
+.user-panel .panel-body{
+	padding:0px;
+	}
+.each-user-well {
+	box-shadow: none;
+	border: none;
+	padding-bottom: 0px !important;
+	background-color: transparent;
+	margin-bottom: 0px !important;
+	}
+.userlist-timestamp,.top-msg-timestamp{
+	font-size: 11px;
+	color: #7f7f7f;}
+	
+.each-user-well hr{
+	margin-top: 14px;
+	margin-bottom: 0px;
+	}	
+.msg-details {
+	color: #7f7f7f;
+	}
+			
+.user-ppix{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #747474 url(../img/prof.jpg) no-repeat;
+	background-size: cover;  }
+
+	.u-satus {
+		width: 8px;
+		height: 8px;
+		display: inline-block; 
+		border-radius: 50%;
+		background-color: #808080;
+		margin-left: 8px; 
+		 }
+		 .top-msg-timestamp{
+			 font-weight: 500;
+			 font-size: 14px;
+			 }
+		.on-stat {
+			background-color: #55C000;
+			} 
+			.off-stat{
+				background-color: #686868 ;
+				}
+				.aw-stat{
+					background-color: #FF8906;}
+.msg-body{height: 316px;}
+.msg-body-wrap{
+	width: 100%;
+	padding: 8px 15px;
+	background-color: #fff;
+	border: 1px solid #D5D5D5;
+	 }	
+#msg-body:focus .msg-body-wrap{
+	    
+	}					
+#msg-body{
+	border: none;
+	max-height: 200px;
+	border:none;
+	box-shadow: none;
+	margin: 0;
+	outline: 0;
+	resize: none;
+	}
+	.msg-tools{
+		padding: 14px 8px;
+		height: 42px;
+		}
+.word-count {
+	font-size: 12px;}
+#msg-rail{
+		margin-bottom: 0px;}
+		.msg-fxn{
+			color: #979797;}
+			.msg-timestamp{
+				font-size: 12px;
+				margin-top: -20px;}	
+				.each-body{
+					padding: 20px 0px;
+					font-size: 14px;
+					font-weight: 500; }	
+						@media (max-width: 992px) {
+							.pc-msg-container{
+								margin-top: 60px; 
+								width: 100%;
+								padding: 0;}
+								.conversation-wrap{
+									*padding-right: 0px;}}	

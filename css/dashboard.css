@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* Dasboard style */
+
+.dash-thumb{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	box-shadow: 0 0 20px -5px rgba(0,0,0,0.2);
+	border: 6px solid #fff;
+	background-image: url(../img/prof.jpg);
+	background-size: cover;
+	
+	}
+	.dashboard-wrap{
+		margin-top: 120px;}
+		.user-area{
+			background-color: #FFF;
+			padding: 0px;}
+			.brief{
+				background-color: rgba(255,255,255,1.00);}
+				.brief .row .col-md-3{
+					border-right: #DDDDDD 1px solid; }
+					.brief .row .col-md-3:last-child{
+					border-right: none; }
+					.brief p{
+						font-size: 36px;
+						margin-top: 24px;
+						}
+						.brief sup {
+							font-size: 20px;}
+						.brief a{
+							color: #000000;
+							}
+							.brief a:hover{
+								color: #f74662;}
+					.brief h6{ color: #9C9C9C;}
+				.user-area ul{ list-style: none;
+				margin-left: 0px;
+				padding: 0px;
+				margin-bottom: 0px;
+				}
+				.user-brief {box-shadow: none;
+				background-color: #FFFFFF;
+				border: none;}
+				.user-area ul li{
+					display: block;
+					margin-left: 0px;
+					}
+					.user-area ul li strong{
+						font-size: 14px;
+						margin-left: 16px;
+						}
+				.progress,.progress-bar{ height: 3px;}
+				.progress{margin-top: 10px;}
+				
+				.right-panel{
+					margin-bottom: 160px;}
+					.well.well-sm.inline-nav-wrap{ background-color: transparent;
+					border: none;
+					border-radius: 0;  
+					border-bottom: 1px solid #ABABAB;
+					box-shadow: none;
+					}
+					.nav.inline-nav .pointer{
+						position: relative;
+						top: 24px;
+						left: -190px;
+						z-index:1;
+						width: 0;
+						height: 0;
+						bottom: 0;
+						margin: 0;
+						border-bottom: 10px solid #ABABAB;
+						border-right:10px solid transparent;
+						border-left:10px solid transparent;
+						transition: left 0.3s;
+						
+											
+						}
+				.nav.inline-nav li{display: inline-block;
+				cursor:pointer;
+				font-size: 14px;}
+				.todo-wrap .well ,.not-wrap .well{
+					margin-bottom: 0px;
+					border:none;
+					border-radius: 0px;
+					padding: 24px 0px;
+					font-size: 14px;
+					background-color: #fff;
+					}
+				.todo-wrap well-sm, .not-wrap .well-sm{
+					border-radius: 0px;
+					border:none;
+					background-color: #FFFFFF !important;					
+					border-bottom: 1px solid #D9D9D9;
+					
+					}
+					.todo-wrap .well:hover,.not-wrap .well:hover{
+						background-color: #FFEEEE !important;
+						}
+						.not-wrap{
+							display: none;
+						}
+					
+					.each-todo .todo-icon{
+						font-size: 32px;
+						color: #FF6CA3;
+						}
+						.each-todo .todo-text {
+							line-height: 32px;}
+

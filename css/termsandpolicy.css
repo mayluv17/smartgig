@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+li { font-size: 14px;}
+/* CSS Document for terms and condition*/
+
+.terms-wrap{
+	background-color: #FFFFFF;
+	margin-top: 100px;
+	max-width: 950px;
+	border: 1px solid #BCBCBC;
+	border-radius: 4px 4px 0px 0px;
+	
+	}
+.terms-wrap .col-xs-12 { margin-bottom: 40px;}
+
+.terms-wrap .col-xs-12 strong{ font-size: 16px;
+margin: 20px ;
+}
+.terms-wrap p{ font-size: 14px;
+}
+
+
+
+
+/* CSS Document for privacy policy*/
+
+.privacy-wrap{
+	background-color: #FFFFFF;
+	margin-top: 100px;
+	max-width: 950px;
+	border: 1px solid #BCBCBC;
+		border-radius: 4px 4px 0px 0px;
+	
+	}
+.privacy-wrap .col-xs-12 { margin-bottom: 40px;}
+
+.privacy-wrap .col-xs-12 strong{ font-size: 16px;
+margin: 20px ;
+}
+.privacy-wrap p{ font-size: 14px;
+}

@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* profile style */
+input[type="checkbox"].ios-switch + div{
+	margin-top: 0px;
+	}
+
+.profle-header{
+	padding: 60px 0px;
+	background: url(../img/cover.jpg) #323a45 no-repeat center;
+	background-size: cover;
+	padding-bottom: 0px;
+	min-height: auto;
+	margin-top: 100px;
+	}
+	.header-details{
+		width: auto;
+		margin: auto;
+		color: #FFF;
+		background-color: transparent;
+		border: none;
+		}
+	.header-details p{ font-size: 12px;}
+	.header-details h1{ padding: 0;
+	margin: 0;
+	margin-top: 20px;}	
+.ppix{
+	width: 160px;
+	height:160px;
+	border-radius: 50%;
+	background: rgba(189,189,189,1.00) url(../img/prof.jpg) no-repeat;
+	border: 2px solid #BCBCBC;
+	background-size: cover;
+	margin: auto;
+	}
+.rating { color: #FFBD18;
+font-size: 24px;}	
+.sex-state {
+	display: inline-block;
+	padding: 40px;
+	margin-bottom: 40px;
+	}
+	.prof-nav{
+		margin: auto;
+		width: 310px;
+		font-size: 14px;
+		border-bottom: none;
+		}
+		.prof-nav li{ margin-bottom: 0px;}
+		.prof-nav a{
+			text-transform: uppercase !important;
+		font-weight: 700;
+		border: none !important;
+			}
+					.prof-nav.nav-tabs>li>a{
+						margin-right: 20px;
+						color: #FFF;
+						padding-left: 2px;
+						padding-right: 2px;}
+		.prof-nav.nav-tabs>li.active>a, .prof-nav.nav-tabs>li.active>a:focus, .prof-nav.nav-tabs>li.active>a:hover{
+				border-bottom: 4px solid #f74662 !important;
+						background-color: transparent;
+						color: #fff;
+					
+						
+			}
+	.prof-nav.nav-tabs>li>a:focus, .prof-nav.nav-tabs>li>a:hover{
+				border-bottom: 4px solid #f74662 !important;
+						background-color: transparent;
+						color: #fff;
+						
+			}
+	.icn-inline{
+		padding: 10px 0px;
+		}
+	.panel-default>.panel-heading { background-color: #FFF;}	
+		.values {
+			padding: 20px;
+			padding-left: 30px
+			}
+			.music-info .panel-body, .public-prof .panel-body{
+				padding: 0px;}	
+			.each-details {
+				width: 100%;
+				    min-height: 80px;
+					height: auto;
+					border-bottom: 1px solid #C1C1C1;
+					padding: 16px 0px;
+
+					}
+					.song-deli .each-details, .payment-set .each-details {
+						 min-height: 60px;}
+					
+							.each-details:last-child  { border-bottom: none;}
+				
+				
+				.glyphicon-info-sign{
+					display: none;} 	/*display this when you ready	*/	
+							
+							.f-wrap{
+								padding: 10px 0px;
+								padding-top: 40px;
+								}
+								.f-btn{
+									padding: 10px;
+									text-align:right;
+													}
+
+.well-headings{
+	background-color: #FFFFFF;
+	text-indent: 20px;
+	}
+	.mygigs-wrap{
+		*min-height: 400px;
+		height: auto;
+		padding: 0px 0px;
+		background-color: transparent!important;
+}
+
+.comment-wrap{
+	padding: 20px;
+	background-color: #fff;}
+	.comment-wrap .rating{
+		font-size: 12px;
+		padding-top: 0px;
+		}
+		.comment-wrap p{
+			font-size: 12px;
+			color: #9F9F9F;
+			}
+.thumb-sm {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-top: -10px;
+	}
+	
+	/**/
+	
+	.wd-input{
+		padding: 0px;
+		}

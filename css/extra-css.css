@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form-err, .upload-success{
+	position:fixed;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	text-align:center !important;
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+	z-index:99999999999;
+}
+
+.gig-content a p{
+	padding:10px !important;
+	font-size:18px !important;
+	line-height:24px;
+}
+
+.featured-gig .panel .panel-body .gig-pix{
+	width:100% !important;
+	margin-top:5px;
+}
+
+.review-wrap{
+    border: 1px solid #e3e3e3;
+}
+
+.review-wrap .well{
+	margin:0 !important;
+	border:0 !important;
+	border-bottom:1px solid #e3e3e3 !important;
+	border-radius:0px;
+}
+
+.review-wrap .well:last-child{
+	border-bottom:0px !important;
+}
+
+.review-wrap .well .comment-image{
+	float:left;
+}
+
+.review-wrap .well .comment-image .thumbnail{
+	margin-bottom:5px !important;
+}
+
+.review-wrap .well .comment-image .reviewed-by{
+	font-size:11px;
+	text-align:center;
+}
+
+.review-wrap .well .comment-content{
+	float:left;
+	margin-left:20px !important;
+}
+
+.review-wrap .well .comment-content:after, .mygigs-wrap:after{
+	content:'';
+	clear:both;
+}
+
+
+/*view gig page*/
+.gig-performance-wrap{
+	margin-top:25px;
+	display:block;
+}
+
+.gig-performance-wrap div{
+	margin:10px 5px !important;
+}
+/*view gig page*/
+
+.pics-row label{
+	width:100% !important;
+	display:block;
+	position:relative;
+}
+
+.pics-row form input[type=file],
+.pics-row form input[type=submit]{
+	display:none;
+}
+
+.upload-ok{
+	color:#FFF;
+	background-color:#8FC063;
+	padding:2px 5px;
+	border-radius:100%;
+	position:absolute;
+	right:-7px;
+	top:-7px;
+	display:none;
+}
+
+.upload-er .glyphicon{
+	color:#a94442;
+	background-color:#FFF;
+	*padding:2px 5px;
+	border-radius:100%;
+	position:absolute;
+	right:-12px;
+	top:-12px;
+	font-size:26px;
+	display:none;
+}
+
+div.er-message{
+	color: #a94442;
+    background-color: #f2dede;
+	padding: 5px;
+    border: 1px solid #ebccd1;
+	font-size:13px;
+	font-weight:normal;
+	display:none;
+	position:absolute;
+	top:100%;
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+.clear{
+	clear:both;
+}

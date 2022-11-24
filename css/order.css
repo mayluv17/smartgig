@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+/*932b76
+0d1554*/
+p{ font-size: 14px;}
+ul{
+	list-style: none;
+	}
+ul li{font-size: 14px;}
+
+.order-inner{
+	background-color: #fff;
+	font-size: 14px;
+	padding: 40px;
+	}
+.gig-dcl{
+	margin-top: 40px}
+.req-row{
+	*width: 96%;
+	padding: 40px;
+	background-color: #2A3243;
+	color: #f74662;
+	*border-radius: 6px;
+	*margin-top: 20px;
+	}		
+.req-row span{
+	font-size: 36px;
+	}
+.rqm-toggle{
+	padding: 40px;
+	background-color: #fff;
+	font-size: 14px;
+}
+.timer{
+	padding: 40px 0;}
+.well{
+	box-shadow: none;}
+
+.each-msg{
+	margin: 20px 0px;}
+.order-option{
+	*padding: 20px 0px;
+	background-color: #4B4B4B;
+	}
+
+
+.timer{
+	padding: 40px 40px;}	
+.btn-deliver, .btn-resolve{
+	padding: 20px 0px;
+	display: block;
+	width: 100%;
+	}	
+.btn-deliver{
+	background-color: #f74662;
+	color: #fff;
+		}
+	.btn-deliver:hover, .btn-resolve:hover{
+	    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	}		
+ .btn-resolve{
+	 background-color: #2A3243;
+	 color: #fff;
+	 }		
+		
+.thumbnail{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-image: url(../img/Music-5.jpg);
+	background-size: cover; 
+	}
+.activities {
+	background-color: #f74662 ;
+	color: #fff;
+	padding: 40px;
+	border: none; }	
+.activities span {	
+font-size:36px;
+}
+.form {
+	padding: 40px;
+	background-color: #747474;
+	}
+	.form textarea {
+		resize: none;}
+.review{
+	padding:40px 0px;
+	background-color: #2A3243; 
+	color: #fff;}
+.review span{
+	font-size: 36px;}
+.review .well{	
+width: 90%;
+background-color: #222936;
+margin: auto;
+border: 1px solid #3A465B;
+border-radius: 4px;
+margin-top: 20px;
+}
+.rating{
+	height: 15px;
+	vertical-align: middle;
+	}
+	.rating span{
+	color: #FFBE34;
+	margin: auto;
+	font-size: 14px;
+	line-height: 46px;}
+
+@media (min-width: 768px) { 
+	.timer {
+		padding: 40px;
+	}
+	}
+
+		}
+@media screen and (max-width: 767px) {
+
+    .header { padding-bottom: 25px; padding: 5px 0; }
+    .header .buttons { margin: 40px 0 0; text-align: center; }
+    .header h1 { font-size: 54px; }
+    .header .version { font-size: 18px; }
+    .header .clock { margin: 0 auto; display: block; width: 322px; }
+
+    .flip-clock-wrapper ul { height: 50px; line-height: 50px; }
+    .flip-clock-wrapper ul li a div.up:after { top: 24px; }
+    .flip-clock-divider { height: 50px; }
+    .flip-clock-dot { height: 6px; width: 6px; left: 7px;}
+    .flip-clock-dot.top { top: 17px; }
+    .flip-clock-dot.bottom { bottom: 8px; }
+
+    .grand-button,
+    a.grand-button,
+    a.grand-button:hover { 
+        display: block !important;
+        width: 95%; 
+        margin: 0 2.5% 10px !important;
+    }
+
+    .header .flip-clock-divider .flip-clock-label { font-size: 16px; }
+    .header .flip-clock-divider.hours .flip-clock-label { right: -66px; }
+    .header .flip-clock-divider.minutes .flip-clock-label { right: -78px; }
+    .header .flip-clock-divider.seconds .flip-clock-label { right: -78px; }
+
+    .flip-clock-wrapper ul { width: 37px; }
+    .flip-clock-wrapper ul li a div div.inn { font-size: 30px; }
+}	

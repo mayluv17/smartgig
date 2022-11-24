@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.giginfo{ margin-top: 100px;}
+.giginfo .form-group-wrap { margin-top: 20px;}
+.giginfo .well{ margin-bottom: 80px; background-color: #FDFDFD;}
+.btn-upload { margin-top: 20px; border-radius: 2px;}
+.btn-upload:hover{ color: #e22f4b; background-color: #FFF !important;}
+.btn-upload:focus{ color: #e22f4b; background-color: #FFF !important;}
+.form-control:focus{ border-color: #e22f4b;
+box-shadow: inset 0 1px 1px rgba(233,102,134,0.60);
+
+} 
+
+.help-block{ font-size: 12px; }
+.checkout-lg .btn-default {
+	font-size: 16px;
+	font-weight: 700;
+	}
+
+.checkout-lg h3 { font-size: 46px;
+font-weight: 400;
+}
+
+@media (min-width: 768px and max-width:1200px ) {.checkout-lg { width: 80%; }}
+
+@media (min-width:1200px ) {.checkout-lg { width: 80%; }}

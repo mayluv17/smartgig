@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+.jumbotron{
+	height: 100px !important;
+	min-height: 250px;
+	background: url(../img/downloadpage_controlle_wie.jpg) bottom;
+	padding: 40px 0px !important;
+	margin-top: 100px;}
+a.btn#rsq-btn{
+		*width: 100%;
+		font-size: 14px !important;
+		margin-top: 0px;}
+.hiw-panel{
+			margin-top: 20px;}
+.hiw-panel .panel-body ul{
+				padding-left: 0;
+				list-style: none;
+				font-size: 12px;}
+.hiw-panel .panel-body ul li{ padding: 4px 0px; }
+.left-side{
+	*min-width: 250px;}
+	.request-contain{
+		margin-bottom: 20px;}				
+.rq-menu-row{margin: 0;}	
+    .each-request{
+		box-shadow: none;
+		font-size: 14px;
+		background-color:#FFFFFF;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		min-height: 175px;
+		transition-duration: .6s;
+		}
+.user-ppix{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 1px solid #e3e3e3;
+	background: url(../img/Music-5.jpg) no-repeat ;
+	background-size: cover;
+	margin: auto;
+	margin-top: 20px;
+	}		
+ .each-request strong{
+	 padding-top: 16px;}
+	 .each-request:hover{
+		 background-color: #FFEAF0;}		
+ .each-request:hover .btn-bid{
+	 display: block;}		
+  .each-request p{
+	  color: #7E7E7E;}		
+.btn-default.btn-bid{
+		 margin-left: 80%;
+		 font-size: 12px !important;
+		background-color: transparent !important;
+		 border: 1px solid #f74662 !important;
+		 color: #f74662 !important;
+		 margin-top: 4px;
+		 border-radius: 25px !important;
+		 display: none;
+		 padding: 8px 16px;
+		 width: 80px; }
+.btn-pagination .btn-default{
+	background-color: transparent !important;
+	color: #f74662 !important;
+	border: 1px solid #f74662;}
+
+.gig-thumbnail{
+	width: 40px;
+	height: 40px;
+	background: url(../img/art.jpg);
+	background-size: cover;
+	}
+	.gig-listwrap{
+		height: 120px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	.gig-inlist{
+		margin: 2px 0px;
+		*height: 50px;
+		padding-bottom: 0; }
+	.gig-inlist p{
+		display: inline;
+		font-size: 12px;}
+	.well-attach{
+		margin: 2px 0px;
+		font-size: 12px;
+		background-color: #FFD375;
+		border: none;}
+		.modal-req{
+			min-height: 100px;}	
+		.offer-text{
+			resize: none;}	
+			input[type="radio"] { position: absolute;
+			opacity: 1;
+			margin-top: 20px;}
+			.gig-listwrap label{
+				width: 99% !important;
+				display: block !important;}
+				#offer-text{
+					resize: none;}
+@media (max-width: 991px){
+	.jumbotron{margin-top: 50px;}
+	.request-contain{ *width:99%;}
+	a.btn#rsq-btn{
+		*width: 250px;
+		}
+#btn-sd{
+	display: none;}
+}
+@media (max-width: 767px){
+	.each-request{
+		text-align: center;}}
